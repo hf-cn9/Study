@@ -1,0 +1,4 @@
+﻿  算法.cpp
+D:\Desktop\工具\c语言\仿函数\仿函数\算法.cpp(93,10): warning C4244: “初始化”: 从“__int64”转换到“int”，可能丢失数据
+D:\Desktop\工具\c语言\仿函数\仿函数\算法.cpp(97,16): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
+  仿函数.vcxproj -> D:\Desktop\工具\c语言\仿函数\x64\Debug\仿函数.exe
