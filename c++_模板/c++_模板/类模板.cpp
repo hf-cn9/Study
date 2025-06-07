@@ -1,7 +1,7 @@
 #include<iostream>
 #include<string>
 using namespace std;
-
+#if 0
 //模板的局限：
 //无法直接操作自定义的数据类型;
 //可以通过具体化来实现；
@@ -121,7 +121,7 @@ Animal<T1,T2>::Animal(T1 NAME, T2 AGE)
 	this->age = AGE;
 	this->name = NAME;
 }
-int main2()
+int main()
 {
 	test_10();
 	test_20();
@@ -129,3 +129,4 @@ int main2()
 	system("pause");
 	return 0;
 }
+#endif

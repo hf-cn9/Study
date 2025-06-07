@@ -4,7 +4,7 @@
 #include<string>
 
 using namespace std;
-
+#if 0
 //map中所有元素都是pair（对组）
 //map的底层是二叉树
 //会自动排序，且不允许key值重复
@@ -117,8 +117,9 @@ void test75()
 	cout << endl;
 
 }
-int main8()
+int main()
 {
 	system("pause");
 	return 0;
 }
+#endif

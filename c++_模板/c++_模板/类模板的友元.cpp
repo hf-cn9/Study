@@ -1,7 +1,7 @@
 #pragma once
 #include<iostream>
 #include<string>
-
+#if 0
 using namespace std;
 
 template<class T1, class T2>
@@ -40,9 +40,10 @@ void test_12()
 	showInfo1(p1);
 	showInfo2(p1);
 }
-int main3()
+int main()
 {
 	test_12();
 	system("pause");
 	return 0;
 }
+#endif

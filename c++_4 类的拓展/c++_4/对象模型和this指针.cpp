@@ -1,5 +1,5 @@
 #include<iostream>
-
+#if 0
 using namespace std;
 
 //成员变量和成员函数分开存储
@@ -78,7 +78,7 @@ void test()
 	c.Add_C(10);//可以调用const修饰的成员函数
 	//c.func();//不可以调用普通成员函数
 }
-int main1()
+int main()
 {	
 	//空对象会分配一个字节的内存，为了区分空对象占内存的位置
 	cout << "sizeof(A) = " << sizeof(A) << endl;
@@ -91,3 +91,4 @@ int main1()
 	system("pause");
 	return 0;
 }
+#endif

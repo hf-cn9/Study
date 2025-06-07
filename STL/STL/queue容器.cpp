@@ -4,7 +4,7 @@
 
 using namespace std;
 //queue，队列容器：队头出，队尾进,只能访问队头和队尾
-
+#if 0
 void test41()
 {
 	queue<int> q;
@@ -30,3 +30,4 @@ int main()
 	system("pause");
 	return 0;
 }
+#endif

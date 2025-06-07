@@ -6,7 +6,7 @@
 #include<functional>
 #include<iostream>
 using namespace std;
-
+#if 1
 class ThreadPool {
 public:
 	ThreadPool(const ThreadPool&) = delete;//禁用拷贝构造
@@ -66,7 +66,7 @@ private:
 	condition_variable cv;//通知线程
 	bool stop;//条件
 };
-int main1() {
+int main() {
 	ThreadPool& pool = ThreadPool::getInstance();
 	for (int i = 0;i < 10;i++) {
 		pool.enqueue([i] {
@@ -77,3 +77,4 @@ int main1() {
 	}
 	return 0;
 }
+#endif

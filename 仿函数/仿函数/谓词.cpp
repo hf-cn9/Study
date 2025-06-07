@@ -4,7 +4,7 @@
 #include<algorithm>
 
 using namespace std;
-
+#if 0
 //谓词：返回bool类型的仿函数
 //如果operator()()接受一个参数是一元谓词
 class GreateFive
@@ -51,9 +51,10 @@ void test22()
 	}
 	cout << endl;
 }
-int main2()
+int main()
 {
 	test22();
 	system("pause");
 	return 0;
 }
+#endif

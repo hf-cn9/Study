@@ -4,7 +4,7 @@
 #include<algorithm>
 #include<numeric>
 #include<ctime>
-
+#if 0
 using namespace std;
 //for_each(迭代器，迭代器，函数或仿函数)用于遍历
 void print01(int v)
@@ -211,3 +211,4 @@ int main()
 	system("pause");
 	return 0;
 }
+#endif

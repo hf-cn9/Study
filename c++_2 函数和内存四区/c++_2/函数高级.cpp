@@ -1,5 +1,5 @@
 #include<iostream>
-
+#if 0
 using namespace std;
 
 int fuc(int a, int b = 20, int c = 30)
@@ -48,7 +48,7 @@ void fuc5(int a)//运行合法，但是调用fuc5(10)会报错;
 }
 
 
-int main2()
+int main()
 {
 	fuc(10, 20, 30);//60
 	fuc(10, 20);//60
@@ -67,3 +67,4 @@ int main2()
 	return 0;
 
 }
+#endif

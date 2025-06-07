@@ -1,6 +1,6 @@
 #include<iostream>
 #include<string>
-
+#if 1
 using namespace std;
 //仿函数可以有自己的返回值，可以有参数
 class MyAdd
@@ -31,10 +31,11 @@ void test11()
 	cout << ma(10, 20) << endl;
 	MyPrint()("2020");
 }
-int main1()
+int main()
 {
 	test11();
 	
 	system("pause");
 	return 0;
 }
+#endif

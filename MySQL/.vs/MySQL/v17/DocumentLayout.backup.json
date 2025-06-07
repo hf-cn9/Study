@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\Desktop\\\u5DE5\u5177\\c\u8BED\u8A00\\MySQL\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0D754D0F-6CB9-4414-AF6B-593A3495829D}|Project1\\Project1.vcxproj|D:\\Desktop\\\u5DE5\u5177\\c\u8BED\u8A00\\MySQL\\Project1\\managebooks.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{0D754D0F-6CB9-4414-AF6B-593A3495829D}|Project1\\Project1.vcxproj|solutionrelative:Project1\\managebooks.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0D754D0F-6CB9-4414-AF6B-593A3495829D}|Project1\\Project1.vcxproj|D:\\Desktop\\\u5DE5\u5177\\c\u8BED\u8A00\\MySQL\\\u6E901.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{0D754D0F-6CB9-4414-AF6B-593A3495829D}|Project1\\Project1.vcxproj|solutionrelative:\u6E901.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D754D0F-6CB9-4414-AF6B-593A3495829D}|Project1\\Project1.vcxproj|D:\\Desktop\\\u5DE5\u5177\\c\u8BED\u8A00\\MySQL\\Project1\\managebooks.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0D754D0F-6CB9-4414-AF6B-593A3495829D}|Project1\\Project1.vcxproj|solutionrelative:Project1\\managebooks.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,7 +26,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "\u6E901.cpp",
               "DocumentMoniker": "D:\\Desktop\\\u5DE5\u5177\\c\u8BED\u8A00\\MySQL\\\u6E901.cpp",
               "RelativeDocumentMoniker": "\u6E901.cpp",
@@ -39,13 +39,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "managebooks.cpp",
               "DocumentMoniker": "D:\\Desktop\\\u5DE5\u5177\\c\u8BED\u8A00\\MySQL\\Project1\\managebooks.cpp",
               "RelativeDocumentMoniker": "Project1\\managebooks.cpp",
               "ToolTip": "D:\\Desktop\\\u5DE5\u5177\\c\u8BED\u8A00\\MySQL\\Project1\\managebooks.cpp",
               "RelativeToolTip": "Project1\\managebooks.cpp",
-              "ViewState": "AgIAAIYAAAAAAAAAAAAUwJAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAAAJQAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-06-03T13:07:10.693Z",
               "EditorCaption": ""

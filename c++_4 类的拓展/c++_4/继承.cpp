@@ -1,5 +1,6 @@
 #include<iostream>
 #include<string>
+#if 1
 using namespace std;
 
 //ºÃ≥– µœ÷“≥√Ê
@@ -121,3 +122,4 @@ int main()
 	system("pause");
 	return 0;
 }
+#endif 

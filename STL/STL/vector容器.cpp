@@ -2,7 +2,7 @@
 #include<vector>
 #include<algorithm>//算法头文件
 using namespace std;
-
+#if 1
 //STL六大组件：
 //容器：各种数据结构
 //算法：各种常用算法
@@ -200,9 +200,10 @@ void test08()
 	}
 	cout << num << endl;
 }
-int main1()
+int main()
 {
 	test08();
 	system("pause");
 	return 0;
 }
+#endif

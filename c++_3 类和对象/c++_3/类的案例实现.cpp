@@ -2,7 +2,7 @@
 using namespace std;
 
 
-
+#if 1
 //设置一个立方体类:
 class Cube
 {
@@ -75,7 +75,7 @@ bool global_isEqual(Cube& other, Cube& other2)
 	}
 }
 
-int main1()
+int main()
 {
 	Cube cube1;
 	cube1.set_length(10);
@@ -109,3 +109,4 @@ int main1()
 	system("pause");
 	return 0;
 }
+#endif

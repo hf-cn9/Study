@@ -1,7 +1,7 @@
 #include<iostream>
 
 using namespace std;
-
+#if 0
 //普通函数可以发生隐式类型转换
 //模板函数如果不声明类型，不会发生隐式类型转换；
 //但是如果有更好的匹配（也就是普通函数参数是int时，导入的参数是char），编译器不会进行类型转换而是直接调用函数模板；
@@ -48,7 +48,7 @@ void test_1()
 		cout << arr[i] << endl;
 	}
 }
-int main1()
+int main()
 {
 	int a = 10;
 	int b = 20;
@@ -63,3 +63,4 @@ int main1()
 	system("pause");
 	return 0;
 }
+#endif

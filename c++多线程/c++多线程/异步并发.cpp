@@ -1,6 +1,6 @@
 #include<iostream>
 #include<future>
-
+#if 0
 int add() {
 	int i = 0;
 	for (int j =0 ;j < 100;j++) {
@@ -29,3 +29,4 @@ int main() {
 	std::cout << f.get_future().get() << std::endl;
 	return 0;
 }
+#endif

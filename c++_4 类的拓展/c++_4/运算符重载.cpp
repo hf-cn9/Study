@@ -1,5 +1,5 @@
 #include<iostream>
-
+#if 0 
 using namespace std;
 
 class Math
@@ -106,7 +106,7 @@ ostream& operator<<(ostream &cout, const Math& m) //全局函数重载<<运算符
 	return cout; //返回输出流对象
 }
 
-int main3()
+int main()
 {
 	Math A;
 	A.m_a = 10;
@@ -145,3 +145,4 @@ int main3()
 	system("pause");
 	return 0;
 }
+#endif

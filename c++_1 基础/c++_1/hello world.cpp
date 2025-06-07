@@ -1,8 +1,8 @@
-
 #include "test.h"
 
 #define Day 7 //定义宏常量，不可修改
-int main1() 
+#if 1
+int main() 
 { 
 /*
 cout的使用
@@ -72,3 +72,4 @@ i++会先读取i的值做判断，然后进行自增加，之后进入循环
 	system("pause");
 	return 0;
 }
+#endif

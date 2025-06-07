@@ -3,7 +3,7 @@
 #include<string>
 #include<vector>
 #include<algorithm>
-
+#if 0
 using namespace std;
 //内建函数对象，算术仿函数
 //negate 一元取反仿函数；
@@ -53,9 +53,10 @@ void test34()
 		cout << v2[i] << endl;
 	}
 }
-int main3()
+int main()
 {
 	test34();
 	system("pause");
 	return 0;
 }
+#endif

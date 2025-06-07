@@ -4,7 +4,7 @@
 #include<string>
 
 using namespace std;
-
+#if 0
 //set容器，二叉树数据类型
 void setPrint(const set<int>& s)
 {
@@ -190,9 +190,10 @@ void test68()
 
 
 }
-int main7()
+int main()
 {
 	test68();
 	system("pause");
 	return 0;
 }
+#endif

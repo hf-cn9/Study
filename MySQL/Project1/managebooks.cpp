@@ -8,7 +8,7 @@
 #include<string>
 #include<iomanip>
 using namespace std;
-
+#if 1
 void addBook(sql::Connection* con);
 void viewBook(sql::Connection* con);
 void deleteBook(sql::Connection* con);
@@ -162,3 +162,4 @@ void updateBook(sql::Connection* con){
 		std::cerr << "ERROR:" << e.what() << std::endl;
 	}
 }
+#endif 

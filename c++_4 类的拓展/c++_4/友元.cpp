@@ -1,6 +1,6 @@
 #include<iostream>
 #include<string>
-
+#if 0
 using namespace std;
 
 class Building;
@@ -59,7 +59,7 @@ void GoodFriend3::visit()
 	cout << "友元成员函数访问：" << endl;
 	cout << friend3->m_bedroom << endl; //友元成员函数可以访问私有成员变量
 }
-int main2()
+int main()
 {
 	Building T1;
 	GoodFriend1(&T1); //调用友元函数
@@ -70,3 +70,4 @@ int main2()
 	system("pause");
 	return 0;
 }
+#endif

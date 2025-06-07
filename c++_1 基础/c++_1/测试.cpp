@@ -1,6 +1,6 @@
 
 #include "test.h"
-
+#if 0
 int main()
 {
 //Ë®ÏÉ»¨Êý
@@ -132,7 +132,7 @@ void bubble_sort(int arr[], int leight)
 		}
 	}
 }
-
+#endif
 
 
 

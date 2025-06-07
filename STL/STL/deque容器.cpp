@@ -1,7 +1,7 @@
 #include<iostream>
 #include<deque>
 #include<algorithm>
-
+#if 0
 using namespace std;
 
 //deque双端数组,可以对头部进行插入和删除的操作
@@ -109,9 +109,10 @@ void test26()
 	deqPrint(d1);
 }
 
-int main3()
+int main()
 {
 	test26();
 	system("pause");
 	return 0;
 }
+#endif

@@ -2,7 +2,7 @@
 using namespace std;
 
 //ÒıÓÃ´«µİº¯ÊıµÄ²ÎÊı£»
-
+#if 1
 void swap(int& a, int& b)
 {
 	int temp = a;
@@ -20,7 +20,7 @@ void show(const int& value)//½öĞèÒª´òÓ¡valueµÄÖµ£¬²»ĞèÒª¸Ä±ävalueµÄÖµ£»¼õÉÙÕ¼ÓÃ£
 }
 
 
-int main1()
+int main()
 {
 	//ÒıÓÃ£º¸ø±äÁ¿Æğ±ğÃû£»
 	int a = 10;
@@ -56,3 +56,4 @@ int main1()
 	system("pause");
 	return 0;
 }
+#endif

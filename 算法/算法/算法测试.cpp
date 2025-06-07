@@ -6,7 +6,7 @@
 #include<queue>
 #include<stack>
 #include<string>
-
+#if 1
 using namespace std;
 void Print(int v)
 {
@@ -260,3 +260,4 @@ int main()
 	system("pause");
 	return 0;
 }
+#endif

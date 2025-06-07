@@ -1,7 +1,7 @@
 #include<iostream>
 #include<string>
 using namespace std;
-
+#if 0
 class Base//只要有一个纯虚函数，就是抽象类
 		  //无法实例化对象（不可以用来创建对象)
 		  //子类必须重写纯虚函数，不然也是抽象类
@@ -66,11 +66,12 @@ void test02()
 			 //Base创建的指针释放时会选择走Base的析构函数，而不走Element的析构函数,导致内存泄露
 
 }
-//int main()
-//{
-//	
-//	test02();
-//
-//	system("pause");
-//	return 0;
-//}
+int main()
+{
+	
+	test02();
+
+	system("pause");
+	return 0;
+}
+#endif

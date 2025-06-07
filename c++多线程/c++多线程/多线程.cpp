@@ -6,7 +6,7 @@
 #include<windows.h>
 #include<condition_variable>
 #include<queue>
-
+#if 0
 using namespace std;
 
 mutex mtx;
@@ -113,7 +113,7 @@ void func_1() {
 		shared_data++;
 	}
 }
-int main2() {
+int main() {
 
 	//创建线程
 	string a = "hello";
@@ -182,3 +182,4 @@ int main2() {
 
 	return 0;
 }
+#endif

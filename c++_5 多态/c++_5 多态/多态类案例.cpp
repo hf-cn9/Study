@@ -2,7 +2,7 @@
 #include <memory>
 
 using namespace std;
-
+#if 1
 class CPU
 {
 public:
@@ -96,8 +96,9 @@ void test()
     computer3.dowork();
 }
 
-int main1()
+int main()
 {
     test();
     return 0;
 }
+#endif

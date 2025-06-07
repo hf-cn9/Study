@@ -1,6 +1,6 @@
 #include<iostream>
 #include<string>
-
+#if 0
 using namespace std;
 //string本质是一个类
 void test11()
@@ -117,9 +117,10 @@ void test18()
 	s2 = s1.substr(0, ops);//截取空格前的字符
 	cout << s2 << endl;
 }
-int main2()
+int main()
 {
 	test17();
 	system("pause");
 	return 0;
 }
+#endif

@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-
+#if 0
 const double PI = 3.14;
 //设计一个圆类，求圆的周长和面积；
 class circle
@@ -203,3 +203,4 @@ int main()
 	system("pause");
 	return 0;
 }
+#endif

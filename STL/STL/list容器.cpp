@@ -2,6 +2,7 @@
 #include<list>
 
 using namespace std;
+#if 0
 //listÈİÆ÷,Á´±í
 void lisPrint(const list<int>& lis)
 {
@@ -137,9 +138,10 @@ void test56()
 	lisPrint(l);
 }
 
-int main6()
+int main()
 {
 	
 	system("pause");
 	return 0;
 }
+#endif

@@ -1,5 +1,5 @@
 #include"MyArry.hpp"
-
+#if 1
 void test1()
 {
 	MyArry<Person> p(10);
@@ -20,3 +20,4 @@ int main()
 	system("pause");
 	return 0;
 }
+#endif

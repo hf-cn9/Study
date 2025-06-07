@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-
+#if 0
 //代码区：存放CPU执行的机器指令（即我们所编写的代码），是共享的，只读的；
 
 //全局区（静态区）：存放全局变量、静态变量、常量；系统自动分配和释放；程序结束后由系统释放；
@@ -31,3 +31,4 @@ void test1()
 	//delete释放堆区的内存；
 	delete p;
 }
+#endif

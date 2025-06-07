@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-
+#if 0
 //多态：
 //静态多态：函数重载和运算符重载（编译时地址确定）
 //动态多态：派生类和虚函数实现运行时多态（运行时地址确定）
@@ -43,3 +43,4 @@ int main()
 	system("pause");
 	return 0;
 }
+#endif

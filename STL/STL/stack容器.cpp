@@ -4,7 +4,7 @@
 
 using namespace std;
 
-
+#if 0
 //stack容器，栈容器
 //栈不允许遍历（只能访问栈顶元素）
 
@@ -28,10 +28,11 @@ void test31()
 	}
 	cout<<s.size()<<endl;
 }
-int main4()
+int main()
 {
 	test31();
 
 	system("pause");
 	return 0;
 }
+#endif
